@@ -5,8 +5,8 @@
 	text-align: center;
 }
 .square {
-	width: 500px;
-	height: 500px;
+	width: 400px;
+	height: 400px;
 	background: rgb(235, 91, 154);
 	background: linear-gradient(
 		90deg,
@@ -14,7 +14,6 @@
 		rgba(88, 118, 223, 1) 100%
 	);
 	margin: auto;
-  margin-block: 30px;
 }
 
 .form {
@@ -29,6 +28,7 @@
 label {
 	display: flex;
 	flex-direction: column;
+  width: 188px;
 }
 
 input {
