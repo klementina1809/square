@@ -7,7 +7,7 @@
 .square {
   width: 500px;
   height: 500px;
-  background-color: blueviolet;
+  background-color: rgba(137, 43, 226, 0.767);
   margin: auto;
 }
 
@@ -25,4 +25,10 @@
 label {
   display: flex;
   flex-direction: column;
+}
+
+input {
+  border: none;
+  outline: 0;
+  height: 3em;
 }
