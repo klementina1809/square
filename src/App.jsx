@@ -32,6 +32,7 @@ function App() {
 	return (
 		<>
 			<div className="square" style={squareStyle}></div>
+
 			<div>
 				<label>
 					All borders
@@ -43,7 +44,6 @@ function App() {
 					/>
 				</label>
 			</div>
-
 			<div className="form">
 				<label>
 					Top Left

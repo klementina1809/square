@@ -1,34 +1,38 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
 }
 .square {
-  width: 500px;
-  height: 500px;
-  background-color: rgba(137, 43, 226, 0.767);
-  margin: auto;
+	width: 500px;
+	height: 500px;
+	background: rgb(235, 91, 154);
+	background: linear-gradient(
+		90deg,
+		rgba(235, 91, 154, 1) 0%,
+		rgba(88, 118, 223, 1) 100%
+	);
+	margin: auto;
+  margin-block: 30px;
 }
 
 .form {
-  
-  display: flex;
-  justify-content: center;
-  gap: 36px;
-  width: 500px;
-  flex-wrap: wrap;
-  margin: auto;
-  margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 28px;
+	width: 500px;
+	flex-wrap: wrap;
+	margin: 30px auto;
 }
 
 label {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 input {
-  border: none;
-  outline: 0;
-  height: 3em;
+	border: none;
+	outline: 0;
+	height: 3em;
 }
